@@ -1,13 +1,14 @@
+body{overflow: hidden;}
 body > .page{
  display: flex;
  flex-wrap: wrap;
 }
 body > .page > section{
-    width: 50vh;
-    height: 50vh;
     border: 1px solid grey;
+    height: 50vh;
+    width: 50vw;
 }
-body{overflow: hidden;}
+
 *{margin: 0;padding: 0;}
 *{box-sizing: border-box;}
 *::before, *::after{box-sizing: border-box;}
@@ -15,7 +16,7 @@ ol, ul {
     list-style: none;
 }
 #app1{
-  width: 50vh;
+  width: 50vw;
   height: 50vh;
 }
 #app1 .output{
@@ -71,7 +72,7 @@ ol, ul {
 }
 #app4 .circle{
     width: 30vw;
-    height: 30vw;
+    height: 30vh;
     border-radius: 50%;
     border: 1px solid red;
 }

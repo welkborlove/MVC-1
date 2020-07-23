@@ -11,7 +11,7 @@
 }
 #app4 .circle{
     width: 30vw;
-    height: 30vw;
+    height: 30vh;
     border-radius: 50%;
     border: 1px solid red;
 }
